@@ -1,13 +1,9 @@
-
+import useRouteElements from './routers/useRoteElements'
 function App() {
+  const routerElement = useRouteElements();
 
-  return (
-    <>
-       <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    </>
-  )
+  return <>{routerElement}</>
+
 }
 
-export default App
+export default App;
